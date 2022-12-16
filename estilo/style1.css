@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #5786e498;
+    display: flex;
+    font-family: Poppins;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    border: 0;
+}
+.container {
+    background-color: #5786e4;
+    border-radius: 20px;
+    border: 2px solid #5786e4;
+    width: 450px;
+    max-width: 100%;
+    box-shadow:  9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+.header {
+    padding: 30px 40px;
+    text-align: center;
+}
+.header h2 {
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+}
+.form {
+    padding: 0 40px 30px;
+}
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: white;
+}
+.form-control input {
+    
+    border: 2px solid #5786e4;
+    border-radius: 5px;
+    outline: 0;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    padding: 15px;
+}
+button {
+    background-color: #5786e4;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+
+    margin-top: 5px;
+
+    cursor: pointer;
+}
+button > a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: #584ff5;
+    transition: 0.3s;
+}
+a#esqueci {
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+form > p {
+    padding-top: 10px;
+
+    text-align: center;
+    color: white;
+}
+
+form > p > a {
+    color: white;
+    text-decoration: none;
+}
